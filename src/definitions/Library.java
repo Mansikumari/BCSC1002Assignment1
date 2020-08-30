@@ -7,4 +7,10 @@
 package definitions;
 
 public class Library {
+    public String[] allTheBooks;
+
+    public String[] getAllTheBooks() {
+        return allTheBooks;
+
+    }
 }

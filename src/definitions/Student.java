@@ -7,4 +7,8 @@
 package definitions;
 
 public class Student {
+    public String firstName;
+    public String middleName;
+    public System lastName;
+
 }

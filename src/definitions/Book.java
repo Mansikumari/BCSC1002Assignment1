@@ -41,10 +41,26 @@ public class Book {
         this.ISBNNumber = ISBNNumber;
     }
 
-    public String toString(){
-        "Book Name:"+ getbookName()+","+
-             return "Aurthor Name: "+getAuthorName()+","+
-                "ISBN Number:"+getISBNNumber()+","+",";
+    public String toString() {
+        "Book Name:" + getbookName() + "," +
+        return "Aurthor Name: " + getAuthorName() + "," +
+                "ISBN Number:" + getISBNNumber() + "," + ",";
+    }
+    public boolean equals(Object object){
+        if (this==object) {
+            return true;
+        }
+        if(this.getClass().getName().equals(object.getClass().getName())){
+            Book anotherBook=(Book) object;
+            if (this.getbookName().equals(anotherBook.getbookName()){
+                && this.getAuthorName()=anotherBook.getAuthorName()
+                        && this.getISBNNumber()=anotherBook.getISBNNumber()) {
+                return true;
+            }
+
+        }
+
+
 
 
     }

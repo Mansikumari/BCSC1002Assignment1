@@ -11,6 +11,8 @@ public class Library {
 
     public String[] getAllTheBooks() {
         return allTheBooks;
+        public void  setAllTheBooks(Book[] setAllTheBooks)
+        this.allTheBooks=allTheBooks;
 
     }
 }

@@ -9,7 +9,27 @@ package definitions;
 public class Book {
     public String bookName;
     public String authorName;
-    public String ISBNNumber;
+    public long ISBNNumber;
 
     }
-}
+    public String getbookName() {
+    return bookName;
+    }
+    public void setBookName(String bookName) {
+        this.bookName = bookName;
+    }
+    public String getAuthorName(){
+    return authorName;
+    }
+    public void setAuthorName(String authorName) {
+        this.authorName = authorName;
+    }
+    public long getISBNNumber(){
+    return ISBNNumber;
+    }
+    public void setISBNNumber(long ISBNNumber){
+    this.ISBNNumber=ISBNNumber;
+    }
+
+
+

@@ -6,6 +6,8 @@
  * */
 package definitions;
 
+import java.util.Arrays;
+
 public class Student {
     public String firstName;
     public String middleName;
@@ -20,6 +22,12 @@ public class Student {
         }
         public void Setstore(Book[] store){
             this.store=store;
+
+        }
+        public String toString(){
+            return Arrays.toString(store){
+
+            }
 
         }
     }

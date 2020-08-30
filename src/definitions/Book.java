@@ -7,4 +7,9 @@
 package definitions;
 
 public class Book {
+    public String bookName;
+    public String authorName;
+    public String ISBNNumber;
+
+    }
 }

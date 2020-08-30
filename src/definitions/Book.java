@@ -11,25 +11,37 @@ public class Book {
     public String authorName;
     public long ISBNNumber;
 
+    public Book(String bookName, String authorName, long ISBNNumber) {
+        this.bookName = bookName;
+        this.authorName = authorName;
+        this.ISBNNumber = ISBNNumber;
     }
+
     public String getbookName() {
-    return bookName;
+        return bookName;
     }
+
     public void setBookName(String bookName) {
         this.bookName = bookName;
     }
-    public String getAuthorName(){
-    return authorName;
+
+    public String getAuthorName() {
+        return authorName;
     }
+
     public void setAuthorName(String authorName) {
         this.authorName = authorName;
     }
-    public long getISBNNumber(){
-    return ISBNNumber;
+
+    public long getISBNNumber() {
+        return ISBNNumber;
     }
-    public void setISBNNumber(long ISBNNumber){
-    this.ISBNNumber=ISBNNumber;
+
+    public void setISBNNumber(long ISBNNumber) {
+        this.ISBNNumber = ISBNNumber;
     }
+}
+
 
 
 
